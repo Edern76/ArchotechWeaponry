@@ -1,0 +1,8 @@
+.rider/
+.idea/
+.vs/
+.vscode/
+Source/ArchotechWeaponry/.idea
+Source/ArchotechWeaponry/bin/*
+Source/ArchotechWeaponry/obj/*
+Source/ArchotechWeaponry/ArchotechWeaponry.sln.DotSettings.user
