@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ==== Archotech Minigun ==== -->
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>AW_ArchotechMinigun</defName>
+		<label>archotech minigun</label>
+		<description>Placeholder.</description>
+		<graphicData>
+      <texPath>Things/Weapons/AW_ArchotechMinigun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+    	<MarketValue>4240</MarketValue>
+    	<Mass>9</Mass>
+    	<AccuracyTouch>30</AccuracyTouch>
+      <AccuracyShort>40</AccuracyShort>
+      <AccuracyMedium>40</AccuracyMedium>
+      <AccuracyLong>25</AccuracyLong>
+      <RangedWeapon_Cooldown>2.33</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AW_Bullet_ArchotechMinigun</defaultProjectile>
+        <warmupTime>2.33</warmupTime>
+        <range>34</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <burstShotCount>35</burstShotCount>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>AW_Bullet_ArchotechMinigun</defName>
+    <label>archotech minigun bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>0.5</stoppingPower>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <speed>110</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+	<!-- ==== Archotech Shotgun ==== -->
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>AW_ArchotechShotgun</defName>
+		<label>archotech shotgun</label>
+		<description>Placeholder.</description>
+		<graphicData>
+      <texPath>Things/Weapons/AW_ArchotechShotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+    	<MarketValue>2300</MarketValue>
+    	<Mass>3.8</Mass>
+    	<AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>0.83	</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AW_Bullet_ArchotechShotgun</defaultProjectile>
+        <warmupTime>0.75</warmupTime>
+        <range>20</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>AW_Bullet_ArchotechShotgun</defName>
+    <label>archotech bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <stoppingPower>3.5</stoppingPower>
+      <armorPenetrationBase>0.50</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+	<!-- ==== Archotech LMG ==== -->
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>AW_ArchotechLMG</defName>
+		<label>archotech LMG</label>
+		<description>Placeholder.</description>
+		<graphicData>
+      <texPath>Things/Weapons/AW_ArchotechLMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+    	<MarketValue>2650</MarketValue>
+    	<Mass>2.6</Mass>
+    	<AccuracyTouch>50</AccuracyTouch>
+      <AccuracyShort>55</AccuracyShort>
+      <AccuracyMedium>40</AccuracyMedium>
+      <AccuracyLong>30</AccuracyLong>
+      <RangedWeapon_Cooldown>1.83</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AW_Bullet_ArchotechLMG</defaultProjectile>
+        <warmupTime>1.58</warmupTime>
+        <range>30</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <burstShotCount>16</burstShotCount>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>AW_Bullet_ArchotechLMG</defName>
+    <label>arcotech LMG bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
+      <speed>100</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+	<!-- ==== Archotech Pistol ==== -->
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>AW_ArchotechPistol</defName>
+		<label>archotech pistol</label>
+		<description>Placeholder.</description>
+		<graphicData>
+      <texPath>Things/Weapons/AW_ArchotechPistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+    	<MarketValue>1300</MarketValue>
+    	<Mass>0.7</Mass>
+    	<AccuracyTouch>90</AccuracyTouch>
+      <AccuracyShort>75</AccuracyShort>
+      <AccuracyMedium>50</AccuracyMedium>
+      <AccuracyLong>35</AccuracyLong>
+      <RangedWeapon_Cooldown>1.17</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AW_Bullet_ArchotechPistol</defaultProjectile>
+        <warmupTime>0.17</warmupTime>
+        <range>25</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <ticksBetweenBurstShots>60</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>AW_Bullet_ArchotechPistol</defName>
+    <label>archotech pistol bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
+      <speed>90</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+	<!-- ==== Archotech Voidlauncher ==== -->
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>AW_ArchotechVoidlauncher</defName>
+		<label>archotech voidlauncher</label>
+		<description>Placeholder.</description>
+		<graphicData>
+      <texPath>Things/Weapons/AW_ArchotechVoidLauncher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <tickerType>Normal</tickerType>
+    <statBases>
+    	<MarketValue>10000</MarketValue>
+    	<Mass>10</Mass>
+      <RangedWeapon_Cooldown>2.33</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AW_Bullet_ArchotechVoidlauncher</defaultProjectile>
+        <forcedMissRadius>1</forcedMissRadius>
+        <warmupTime>5</warmupTime>
+        <range>150</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <onlyManualCast>true</onlyManualCast>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+    	<li Class="CompProperties_Explosive">
+        <explosiveRadius>11.7</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+     </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>AW_Bullet_ArchotechVoidlauncher</defName>
+    <label>archotech voidlauncher bullet</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <stoppingPower>2</stoppingPower>
+      <armorPenetrationBase>0.20</armorPenetrationBase>
+      <explosionRadius>11.7</explosionRadius>
+      <speed>70</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+	<!-- ==== Archotech Crossbow ==== -->
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>AW_ArchotechCrossbow</defName>
+		<label>archotech crossbow</label>
+		<description>Placeholder.</description>
+		<graphicData>
+      <texPath>Things/Weapons/AW_ArchotechCrossbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+    	<MarketValue>2300</MarketValue>
+    	<Mass>2.6</Mass>
+    	<AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>3.17</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AW_Bullet_ArchotechCrossbow</defaultProjectile>
+        <warmupTime>2.67</warmupTime>
+        <range>26</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>AW_Bullet_ArchotechCrossbow</defName>
+    <label>archotech crossbow bolt</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.80</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+	<!-- ==== Archotech Bow ==== -->
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>AW_ArchotechBow</defName>
+		<label>archotech bow</label>
+		<description>Placeholder.</description>
+		<graphicData>
+      <texPath>Things/Weapons/AW_ArchotechBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+    	<MarketValue>2000</MarketValue>
+    	<Mass>1.3</Mass>
+    	<AccuracyTouch>0.40</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+      <RangedWeapon_Cooldown>2.33</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AW_Bullet_ArchotechBow</defaultProjectile>
+        <warmupTime>1.17</warmupTime>
+        <range>23</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>AW_Bullet_ArchotechBow</defName>
+    <label>archotech bow arrow</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.70</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+	<!-- ==== Archotech SMG ==== -->
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>AW_ArchotechSMG</defName>
+		<label>archotech smg</label>
+		<description>Placeholder.</description>
+		<graphicData>
+      <texPath>Things/Weapons/AW_ArchotechSMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+    	<MarketValue>2100</MarketValue>
+    	<Mass>1</Mass>
+    	<AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>1.33</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AW_Bullet_ArchotechSMG</defaultProjectile>
+        <warmupTime>0.67</warmupTime>
+        <range>28</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <burstShotCount>4</burstShotCount>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>AW_Bullet_ArchotechSMG</defName>
+    <label> bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <stoppingPower>0.5</stoppingPower>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+	<!-- ==== Archotech Sniper ==== -->
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>AW_ArchotechSniper</defName>
+		<label>archotech sniper</label>
+		<description>Placeholder.</description>
+		<graphicData>
+      <texPath>Things/Weapons/AW_ArchotechSniperRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+    	<MarketValue>2500</MarketValue>
+    	<Mass>2.6</Mass>
+    	<AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.95</AccuracyLong>
+      <RangedWeapon_Cooldown>1.83</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AW_Bullet_ArchotechSniper</defaultProjectile>
+        <warmupTime>2.33</warmupTime>
+        <range>47</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <ticksBetweenBurstShots>96</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>AW_Bullet_ArchotechSniper</defName>
+    <label>archotech sniper bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <stoppingPower>2</stoppingPower>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
+      <speed>100</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+	<!-- ==== Archotech Rifle ==== -->
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>AW_ArchotechRifle</defName>
+		<label>archotech rifle</label>
+		<description>Placeholder.</description>
+		<graphicData>
+      <texPath>Things/Weapons/AW_ArchotechRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+    	<MarketValue>2000</MarketValue>
+    	<Mass>2.6</Mass>
+    	<AccuracyTouch>0.40</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>1.33</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AW_Bullet_ArchotechRifle</defaultProjectile>
+        <warmupTime>1.67</warmupTime>
+        <range>35</range>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>AW_Bullet_ArchotechRifle</defName>
+    <label>archotech rifle bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+</Defs>
