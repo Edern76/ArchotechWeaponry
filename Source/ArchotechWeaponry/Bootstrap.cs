@@ -1,4 +1,5 @@
-﻿using Verse;
+﻿using ArchotechWeaponry.Harmony;
+using Verse;
 
 namespace ArchotechWeaponry
 {
@@ -7,6 +8,7 @@ namespace ArchotechWeaponry
     {
         static Bootstrap()
         {
+            HarmonyBase.ApplyPatches();
             Log.Message("[ArchotechWeaponry] Done intialization");
         }    
     }
