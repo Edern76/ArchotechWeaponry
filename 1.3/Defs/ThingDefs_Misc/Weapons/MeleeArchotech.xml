@@ -17,6 +17,17 @@
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
+    <weaponTags>
+      <li>MeleeArchotech</li>
+    </weaponTags>
+    <comps>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
+      </li>
+    </comps>
     <relicChance>1</relicChance>
  		<statBases>
  			<MarketValue>2400</MarketValue>
@@ -72,6 +83,9 @@
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
+    <weaponTags>
+      <li>MeleeArchotech</li>
+    </weaponTags>
     <relicChance>1</relicChance>
  		<statBases>
  			<MarketValue>4800</MarketValue>
@@ -111,6 +125,12 @@
         <westOffset>(-0.31,0,0)</westOffset>
         <southOffset>(0.31,0,0)</southOffset>
         <northOffset>(-0,31,0,0)</northOffset>
+      </li>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
       </li>
     </comps>
     <inspectorTabs>

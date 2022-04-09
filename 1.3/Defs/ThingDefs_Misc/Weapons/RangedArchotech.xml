@@ -12,6 +12,17 @@
     </graphicData>
     <techLevel>Archotech</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponTags>
+      <li>RangedArchotech</li>
+    </weaponTags>
+    <comps>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
+      </li>
+    </comps>
     <statBases>
     	<MarketValue>4240</MarketValue>
     	<Mass>9</Mass>
@@ -83,6 +94,17 @@
     </graphicData>
     <techLevel>Archotech</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponTags>
+      <li>RangedArchotech</li>
+    </weaponTags>
+    <comps>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
+      </li>
+    </comps>
     <statBases>
     	<MarketValue>2300</MarketValue>
     	<Mass>3.8</Mass>
@@ -154,6 +176,17 @@
     </graphicData>
     <techLevel>Archotech</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponTags>
+      <li>RangedArchotech</li>
+    </weaponTags>
+    <comps>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
+      </li>
+    </comps>
     <statBases>
     	<MarketValue>2650</MarketValue>
     	<Mass>2.6</Mass>
@@ -225,6 +258,17 @@
     </graphicData>
     <techLevel>Archotech</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponTags>
+      <li>RangedArchotech</li>
+    </weaponTags>
+    <comps>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
+      </li>
+    </comps>
     <statBases>
     	<MarketValue>1300</MarketValue>
     	<Mass>0.7</Mass>
@@ -296,6 +340,9 @@
     </graphicData>
     <techLevel>Archotech</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponTags>
+      <li>RangedArchotech</li>
+    </weaponTags>
     <tickerType>Normal</tickerType>
     <statBases>
     	<MarketValue>10000</MarketValue>
@@ -342,6 +389,12 @@
         <explosiveDamageType>Bomb</explosiveDamageType>
         <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
       </li>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
+      </li>
      </comps>
   </ThingDef>
 
@@ -374,6 +427,17 @@
     </graphicData>
     <techLevel>Archotech</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponTags>
+      <li>RangedArchotech</li>
+    </weaponTags>
+    <comps>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
+      </li>
+    </comps>
     <statBases>
     	<MarketValue>2300</MarketValue>
     	<Mass>2.6</Mass>
@@ -443,6 +507,17 @@
     </graphicData>
     <techLevel>Archotech</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponTags>
+      <li>RangedArchotech</li>
+    </weaponTags>
+    <comps>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
+      </li>
+    </comps>
     <statBases>
     	<MarketValue>2000</MarketValue>
     	<Mass>1.3</Mass>
@@ -512,6 +587,17 @@
     </graphicData>
     <techLevel>Archotech</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponTags>
+      <li>RangedArchotech</li>
+    </weaponTags>
+    <comps>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
+      </li>
+    </comps>
     <statBases>
     	<MarketValue>2100</MarketValue>
     	<Mass>1</Mass>
@@ -583,6 +669,17 @@
     </graphicData>
     <techLevel>Archotech</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponTags>
+      <li>RangedArchotech</li>
+    </weaponTags>
+    <comps>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
+      </li>
+    </comps>
     <statBases>
     	<MarketValue>2500</MarketValue>
     	<Mass>2.6</Mass>
@@ -654,6 +751,17 @@
     </graphicData>
     <techLevel>Archotech</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponTags>
+      <li>RangedArchotech</li>
+    </weaponTags>
+    <comps>
+      <li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponArchotech</nameMaker>
+      </li>
+    </comps>
     <statBases>
     	<MarketValue>2000</MarketValue>
     	<Mass>2.6</Mass>
