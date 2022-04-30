@@ -21,6 +21,7 @@ namespace ArchotechWeaponry.Harmony.Patches
                     dinfo.SetAmount(0);
                     if (extension.hediffToApplyOnOrganics != null)
                     {
+                        float severity = extension.severityPerHit;
                         HediffUtils.AddOrUpdateHediffWithSeverity(__instance, extension.hediffToApplyOnOrganics, null, extension.severityPerHit); //TO-DO : Fixed severity if mode is changed
                     }
                 }

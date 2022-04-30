@@ -46,6 +46,11 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
+        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+      </li>
+    </modExtensions>
     <tools>
       <li>
         <label>stock</label>
@@ -114,6 +119,11 @@
       <AccuracyLong>0.45</AccuracyLong>
       <RangedWeapon_Cooldown>0.83	</RangedWeapon_Cooldown>
     </statBases>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
+        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+      </li>
+    </modExtensions>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -210,6 +220,11 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
+        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+      </li>
+    </modExtensions>
     <tools>
       <li>
         <label>stock</label>
@@ -292,6 +307,11 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
+        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+      </li>
+    </modExtensions>
     <tools>
       <li>
         <label>stock</label>
@@ -459,6 +479,11 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
+        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+      </li>
+    </modExtensions>
     <tools>
       <li>
         <label>stock</label>
@@ -539,6 +564,11 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
+        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+      </li>
+    </modExtensions>
     <tools>
       <li>
         <label>stock</label>
@@ -621,6 +651,11 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
+        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+      </li>
+    </modExtensions>
     <tools>
       <li>
         <label>stock</label>
@@ -703,6 +738,11 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
+        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+      </li>
+    </modExtensions>
     <tools>
       <li>
         <label>stock</label>
@@ -783,6 +823,11 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
+        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+      </li>
+    </modExtensions>
     <tools>
       <li>
         <label>stock</label>
