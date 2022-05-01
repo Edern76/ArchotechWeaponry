@@ -55,6 +55,18 @@
      </li>
     </modExtensions>
   </WeaponTraitDef>
+  <ThoughtDef>
+    <defName>PsycastWithdrawal</defName>
+    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>ThoughtWorker_WeaponTraitBonded</workerClass>
+    <stages>
+      <li>
+        <label>{WEAPON}'s need to psycast</label>
+        <description>The limitations of the mind is unnerving.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 
   <WeaponTraitDef>
     <defName>ArchotechWrath</defName>
