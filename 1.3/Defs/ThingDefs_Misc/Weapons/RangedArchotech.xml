@@ -22,6 +22,9 @@
       <li Class="CompProperties_GeneratedName">
         <nameMaker>NamerWeaponArchotech</nameMaker>
       </li>
+      <li Class="CompProperties_ArchotechWeapon">
+        <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
+      </li>
     </comps>
     <statBases>
     	<MarketValue>4240</MarketValue>
@@ -48,7 +51,10 @@
     </verbs>
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
-        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+        <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
+        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
+        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -109,6 +115,9 @@
       <li Class="CompProperties_GeneratedName">
         <nameMaker>NamerWeaponArchotech</nameMaker>
       </li>
+      <li Class="CompProperties_ArchotechWeapon">
+        <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
+      </li>
     </comps>
     <statBases>
     	<MarketValue>2300</MarketValue>
@@ -121,7 +130,10 @@
     </statBases>
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
-        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+        <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
+        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
+        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <verbs>
@@ -196,6 +208,9 @@
       <li Class="CompProperties_GeneratedName">
         <nameMaker>NamerWeaponArchotech</nameMaker>
       </li>
+      <li Class="CompProperties_ArchotechWeapon">
+        <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
+      </li>
     </comps>
     <statBases>
     	<MarketValue>2650</MarketValue>
@@ -222,7 +237,10 @@
     </verbs>
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
-        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+        <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
+        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
+        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -283,6 +301,9 @@
       <li Class="CompProperties_GeneratedName">
         <nameMaker>NamerWeaponArchotech</nameMaker>
       </li>
+      <li Class="CompProperties_ArchotechWeapon">
+        <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
+      </li>
     </comps>
     <statBases>
     	<MarketValue>1300</MarketValue>
@@ -309,7 +330,10 @@
     </verbs>
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
-        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+        <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
+        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
+        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -457,6 +481,9 @@
       <li Class="CompProperties_GeneratedName">
         <nameMaker>NamerWeaponArchotech</nameMaker>
       </li>
+      <li Class="CompProperties_ArchotechWeapon">
+        <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
+      </li>
     </comps>
     <statBases>
     	<MarketValue>2300</MarketValue>
@@ -481,7 +508,10 @@
     </verbs>
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
-        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+        <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
+        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
+        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -542,6 +572,9 @@
       <li Class="CompProperties_GeneratedName">
         <nameMaker>NamerWeaponArchotech</nameMaker>
       </li>
+      <li Class="CompProperties_ArchotechWeapon">
+        <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
+      </li>
     </comps>
     <statBases>
     	<MarketValue>2000</MarketValue>
@@ -566,7 +599,10 @@
     </verbs>
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
-        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+        <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
+        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
+        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -627,6 +663,9 @@
       <li Class="CompProperties_GeneratedName">
         <nameMaker>NamerWeaponArchotech</nameMaker>
       </li>
+      <li Class="CompProperties_ArchotechWeapon">
+        <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
+      </li>
     </comps>
     <statBases>
     	<MarketValue>2100</MarketValue>
@@ -653,7 +692,10 @@
     </verbs>
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
-        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+        <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
+        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
+        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -714,6 +756,9 @@
       <li Class="CompProperties_GeneratedName">
         <nameMaker>NamerWeaponArchotech</nameMaker>
       </li>
+      <li Class="CompProperties_ArchotechWeapon">
+        <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
+      </li>
     </comps>
     <statBases>
     	<MarketValue>2500</MarketValue>
@@ -740,7 +785,10 @@
     </verbs>
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
-        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+        <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
+        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
+        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -801,6 +849,9 @@
       <li Class="CompProperties_GeneratedName">
         <nameMaker>NamerWeaponArchotech</nameMaker>
       </li>
+      <li Class="CompProperties_ArchotechWeapon">
+        <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
+      </li>
     </comps>
     <statBases>
     	<MarketValue>2000</MarketValue>
@@ -825,7 +876,10 @@
     </verbs>
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
-        <hediffToApplyOnOrganics>VoidToxin</hediffToApplyOnOrganics>
+        <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
+        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
+        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>

@@ -55,9 +55,12 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Bootstrap.cs" />
+        <Compile Include="Comps\CompArchotechWeapon.cs" />
+        <Compile Include="DefOfs\HediffDefOf.cs" />
         <Compile Include="Defs\ArchotechDamageExtension.cs" />
         <Compile Include="Defs\ArchotechTraitExtension.cs" />
         <Compile Include="Defs\Traits\PlaguebearerExtension.cs" />
+        <Compile Include="Defs\Traits\PrecognitionExtension.cs" />
         <Compile Include="Harmony\HarmonyBase.cs" />
         <Compile Include="Harmony\Patches\PatchCanAddTrait.cs" />
         <Compile Include="Harmony\Patches\PatchPawnPreApplyDamage.cs" />

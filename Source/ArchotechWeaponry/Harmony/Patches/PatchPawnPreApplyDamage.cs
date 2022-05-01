@@ -1,4 +1,5 @@
 using System.Linq;
+using ArchotechWeaponry.Comps;
 using ArchotechWeaponry.Defs;
 using ArchotechWeaponry.Defs.Traits;
 using ArchotechWeaponry.Utils;
@@ -23,32 +24,61 @@ namespace ArchotechWeaponry.Harmony.Patches
             if (dinfo.Weapon.HasModExtension<ArchotechDamageExtension>() && dinfo.Instigator is Pawn instigator && instigator.equipment.Primary.def == dinfo.Weapon)
             {
                 ThingWithComps weaponComp = instigator.equipment.Primary;
-                if (!__instance.def.race.IsMechanoid)
+                if (weaponComp.TryGetComp<CompArchotechWeapon>() is CompArchotechWeapon compArchotech)
                 {
-                    ArchotechDamageExtension extension = dinfo.Weapon.GetModExtension<ArchotechDamageExtension>();
-                    dinfo.SetAmount(0);
-                    if (extension.hediffToApplyOnOrganics != null)
+                    if (!__instance.def.race.IsMechanoid)
                     {
-                        float severity = extension.severityPerHit;
-                        if (weaponComp.TryGetComp<CompBladelinkWeapon>() is CompBladelinkWeapon compBladelink &&
-                            compBladelink.TraitsListForReading.Any(trait =>
-                                trait.HasModExtension<PlaguebearerExtension>()))
+                        ArchotechDamageExtension extension = dinfo.Weapon.GetModExtension<ArchotechDamageExtension>();
+                        if (!compArchotech.Lethal)
                         {
-                            PlaguebearerExtension plaguebearerTrait = compBladelink.TraitsListForReading
-                                .Find(trait => trait.HasModExtension<PlaguebearerExtension>())
-                                .GetModExtension<PlaguebearerExtension>();
-                            severity += plaguebearerTrait.extraSeverityOnHit;
-                            if (severity > 1f)
-                            {
-                                severity = 1f;
-                            }
+                            dinfo.SetAmount(0);
                         }
-                        HediffUtils.AddOrUpdateHediffWithSeverity(__instance, extension.hediffToApplyOnOrganics, null, severity); //TO-DO : Fixed severity if mode is changed
+
+                        HediffDef toApply = compArchotech.Lethal
+                            ? extension.lethalHediffToApplyOnOrganics
+                            : extension.nonLethalHediffToApplyOnOrganics;
+
+                        if (toApply != null)
+                        {
+                            float severity = compArchotech.Lethal ? extension.lethalSeverityPerHit : extension.nonLethalSeverityPerHit;
+                            if (weaponComp.TryGetComp<CompBladelinkWeapon>() is CompBladelinkWeapon compBladelink &&
+                                compBladelink.TraitsListForReading.Any(trait =>
+                                    trait.HasModExtension<PlaguebearerExtension>()))
+                            {
+                                PlaguebearerExtension plaguebearerTrait = compBladelink.TraitsListForReading
+                                    .Find(trait => trait.HasModExtension<PlaguebearerExtension>())
+                                    .GetModExtension<PlaguebearerExtension>();
+                                severity += plaguebearerTrait.extraSeverityOnHit;
+                                if (severity > 1f)
+                                {
+                                    severity = 1f;
+                                }
+                            }
+
+                            HediffUtils.AddOrUpdateHediffWithSeverity(__instance,
+                                toApply, null,
+                                severity); //TO-DO : Fixed severity if mode is changed
+                        }
+                    }
+                    else
+                    {
+                        dinfo.Def = DamageDefOf.EMP;
                     }
                 }
-                else
+            }
+        }
+
+        public static void HandlePrecognitiion(ref DamageInfo dinfo, Pawn __instance)
+        {
+            if (__instance.equipment.Primary.TryGetComp<CompBladelinkWeapon>() is CompBladelinkWeapon compBladelink &&
+                compBladelink.TraitsListForReading.Any(trait => trait.HasModExtension<PrecognitionExtension>()))
+            {
+                PrecognitionExtension precog = compBladelink.TraitsListForReading
+                    .Find(trait => trait.HasModExtension<PrecognitionExtension>())
+                    .GetModExtension<PrecognitionExtension>();
+                if (Rand.Chance(precog.negationChance))
                 {
-                    dinfo.Def = DamageDefOf.EMP;
+                    dinfo.SetAmount(0);
                 }
             }
         }
