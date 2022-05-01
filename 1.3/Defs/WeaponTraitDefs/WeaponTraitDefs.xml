@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <WeaponTraitDef>
+    <defName>ArchotechPlaguebearer</defName>
+    <label>archotech plaguebearer</label>
+    <description>This weapon corrupt even the strongest of bodies.</description>
+    <commonality>1</commonality>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechTraitExtension">
+        <allowedTags>
+          <li>MeleeArchotech</li>
+          <li>RangedArchotech</li>
+        </allowedTags>
+      </li>
+    </modExtensions>
+    <li Class="ArchotechWeaponry.Defs.Traits.PlaguebearerExtension">
+      <extraSeverityOnHit>0.25</extraSeverityOnHit>
+    </li>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>ArchotechPrecognition</defName>
+    <label>archotech precognition</label>
+    <description>This weapon has eyes everywhere, it sees and predict where the next attack will land.</description>
+    <commonality>1</commonality>
+    <equippedStatOffsets>
+      <MeleeDodgeChance>8</MeleeDodgeChance>
+      <MeleeHitCXhance>3</MeleeHitCXhance>
+    </equippedStatOffsets>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechTraitExtension">
+        <allowedTags>
+          <li>MeleeArchotech</li>
+        </allowedTags>
+      </li>
+    </modExtensions>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>ArchotechSensitivity</defName>
+    <label>archotech sensitivity</label>
+    <description>This weapon enhance one's psychical powers to the point of godhood.</description>
+    <commonality>1</commonality>
+    <equippedStatOffsets>
+      <PsychicSensitivity>0.80</PsychicSensitivity>
+      <PsychicEntropyMax>8</PsychicEntropyMax>
+    </equippedStatOffsets>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechTraitExtension">
+       <allowedTags>
+         <li>MeleeArchotech</li>
+         <li>RangedArchotech</li>
+        </allowedTags>
+     </li>
+    </modExtensions>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>ArchotechWrath</defName>
+    <label>archotech wrath</label>
+    <description>This weapon bears the rage of a thousands ages, just a push could make the wielder burst into an uncontrollable rage.</description>
+    <commonality>1</commonality>
+    <modExtensions>
+     <li Class="ArchotechWeaponry.Defs.ArchotechTraitExtension">
+       <allowedTags>
+         <li>MeleeArchotech</li>
+         <li>RangedArchotech</li>
+       </allowedTags>
+     </li>
+    </modExtensions>
+  </WeaponTraitDef>
+
+</Defs>
