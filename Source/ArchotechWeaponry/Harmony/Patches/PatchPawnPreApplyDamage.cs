@@ -1,4 +1,6 @@
+using System.Linq;
 using ArchotechWeaponry.Defs;
+using ArchotechWeaponry.Defs.Traits;
 using ArchotechWeaponry.Utils;
 using HarmonyLib;
 using RimWorld;
@@ -13,8 +15,14 @@ namespace ArchotechWeaponry.Harmony.Patches
         [HarmonyPrefix]
         public static void Prefix(ref DamageInfo dinfo, Pawn __instance)
         {
-            if (dinfo.Weapon.HasModExtension<ArchotechDamageExtension>())
+            HandleArchotechWeapon(ref dinfo, __instance);
+        }
+
+        private static void HandleArchotechWeapon(ref DamageInfo dinfo, Pawn __instance)
+        {
+            if (dinfo.Weapon.HasModExtension<ArchotechDamageExtension>() && dinfo.Instigator is Pawn instigator && instigator.equipment.Primary.def == dinfo.Weapon)
             {
+                ThingWithComps weaponComp = instigator.equipment.Primary;
                 if (!__instance.def.race.IsMechanoid)
                 {
                     ArchotechDamageExtension extension = dinfo.Weapon.GetModExtension<ArchotechDamageExtension>();
@@ -22,7 +30,20 @@ namespace ArchotechWeaponry.Harmony.Patches
                     if (extension.hediffToApplyOnOrganics != null)
                     {
                         float severity = extension.severityPerHit;
-                        HediffUtils.AddOrUpdateHediffWithSeverity(__instance, extension.hediffToApplyOnOrganics, null, extension.severityPerHit); //TO-DO : Fixed severity if mode is changed
+                        if (weaponComp.TryGetComp<CompBladelinkWeapon>() is CompBladelinkWeapon compBladelink &&
+                            compBladelink.TraitsListForReading.Any(trait =>
+                                trait.HasModExtension<PlaguebearerExtension>()))
+                        {
+                            PlaguebearerExtension plaguebearerTrait = compBladelink.TraitsListForReading
+                                .Find(trait => trait.HasModExtension<PlaguebearerExtension>())
+                                .GetModExtension<PlaguebearerExtension>();
+                            severity += plaguebearerTrait.extraSeverityOnHit;
+                            if (severity > 1f)
+                            {
+                                severity = 1f;
+                            }
+                        }
+                        HediffUtils.AddOrUpdateHediffWithSeverity(__instance, extension.hediffToApplyOnOrganics, null, severity); //TO-DO : Fixed severity if mode is changed
                     }
                 }
                 else

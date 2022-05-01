@@ -15,7 +15,7 @@ namespace ArchotechWeaponry.Harmony.Patches
                 ThingWithComps weapon = __instance.parent;
                 bool isArchotechOnly = trait.HasModExtension<ArchotechTraitExtension>() &&
                                        trait.GetModExtension<ArchotechTraitExtension>().generateOnArchotech;
-                if (weapon.def.weaponTags != null && weapon.def.weaponTags.Contains("MeleeArchotech"))
+                if (weapon.def.weaponTags != null && weapon.def.GetModExtension<ArchotechTraitExtension>() is ArchotechTraitExtension traitExtension && weapon.def.weaponTags.Any(tag => traitExtension.allowedTags.Contains(tag)))
                 {
                     __result = isArchotechOnly;
                 }
