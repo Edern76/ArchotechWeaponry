@@ -34,6 +34,9 @@
           <li>MeleeArchotech</li>
         </allowedTags>
       </li>
+      <li Class="ArchotechWeaponry.Defs.Traits.PrecognitionExtension">
+        <negationChance>0.05</negationChance>
+      </li>
     </modExtensions>
   </WeaponTraitDef>
 
@@ -79,6 +82,9 @@
          <li>MeleeArchotech</li>
          <li>RangedArchotech</li>
        </allowedTags>
+     </li>
+     <li Class="ArchotechWeaponry.Defs.Traits.WrathExtension">
+       <enrageChance>0.05</enrageChance>
      </li>
     </modExtensions>
   </WeaponTraitDef>

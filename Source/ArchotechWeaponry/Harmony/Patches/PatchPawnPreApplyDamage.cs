@@ -6,6 +6,7 @@ using ArchotechWeaponry.Utils;
 using HarmonyLib;
 using RimWorld;
 using Verse;
+using MentalStateDefOf = ArchotechWeaponry.DefOfs.MentalStateDefOf;
 
 namespace ArchotechWeaponry.Harmony.Patches
 {
@@ -16,7 +17,9 @@ namespace ArchotechWeaponry.Harmony.Patches
         [HarmonyPrefix]
         public static void Prefix(ref DamageInfo dinfo, Pawn __instance)
         {
+            HandleWrath(ref dinfo, __instance);
             HandleArchotechWeapon(ref dinfo, __instance);
+            HandlePrecognitiion(ref dinfo, __instance);
         }
 
         private static void HandleArchotechWeapon(ref DamageInfo dinfo, Pawn __instance)
@@ -80,6 +83,14 @@ namespace ArchotechWeaponry.Harmony.Patches
                 {
                     dinfo.SetAmount(0);
                 }
+            }
+        }
+
+        public static void HandleWrath(ref DamageInfo dinfo, Pawn __instance)
+        {
+            if (__instance.MentalStateDef ==MentalStateDefOf.ArchotechWrath)
+            {
+                dinfo.SetAmount(0);
             }
         }
     }

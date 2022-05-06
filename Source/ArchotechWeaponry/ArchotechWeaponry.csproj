@@ -57,13 +57,20 @@
         <Compile Include="Bootstrap.cs" />
         <Compile Include="Comps\CompArchotechWeapon.cs" />
         <Compile Include="DefOfs\HediffDefOf.cs" />
+        <Compile Include="DefOfs\MentalBreakDefOf.cs" />
+        <Compile Include="DefOfs\MentalStateDefOf.cs" />
         <Compile Include="Defs\ArchotechDamageExtension.cs" />
         <Compile Include="Defs\ArchotechTraitExtension.cs" />
         <Compile Include="Defs\Traits\PlaguebearerExtension.cs" />
         <Compile Include="Defs\Traits\PrecognitionExtension.cs" />
+        <Compile Include="Defs\Traits\WrathExtension.cs" />
         <Compile Include="Harmony\HarmonyBase.cs" />
+        <Compile Include="Harmony\Patches\PatchAdjustedCooldown.cs" />
+        <Compile Include="Harmony\Patches\PatchAdjustedCooldownStuff.cs" />
         <Compile Include="Harmony\Patches\PatchCanAddTrait.cs" />
+        <Compile Include="Harmony\Patches\PatchPawnPostApplyDamage.cs" />
         <Compile Include="Harmony\Patches\PatchPawnPreApplyDamage.cs" />
+        <Compile Include="MentalState\MentalState_BattleTrance.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Utils\HediffUtils.cs" />
     </ItemGroup>
