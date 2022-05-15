@@ -13,10 +13,10 @@
           <li>RangedArchotech</li>
         </allowedTags>
       </li>
+      <li Class="ArchotechWeaponry.Defs.Traits.PlaguebearerExtension">
+        <extraSeverityOnHit>0.25</extraSeverityOnHit>
+      </li>
     </modExtensions>
-    <li Class="ArchotechWeaponry.Defs.Traits.PlaguebearerExtension">
-      <extraSeverityOnHit>0.25</extraSeverityOnHit>
-    </li>
   </WeaponTraitDef>
 
   <WeaponTraitDef>
@@ -26,7 +26,7 @@
     <commonality>1</commonality>
     <equippedStatOffsets>
       <MeleeDodgeChance>8</MeleeDodgeChance>
-      <MeleeHitCXhance>3</MeleeHitCXhance>
+      <MeleeHitChance>3</MeleeHitChance>
     </equippedStatOffsets>
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechTraitExtension">
