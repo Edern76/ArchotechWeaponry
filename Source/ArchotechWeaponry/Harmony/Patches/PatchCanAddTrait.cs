@@ -16,13 +16,16 @@ namespace ArchotechWeaponry.Harmony.Patches
                 ThingWithComps weapon = __instance.parent;
                 bool isArchotechOnly = trait.HasModExtension<ArchotechTraitExtension>() &&
                                        trait.GetModExtension<ArchotechTraitExtension>().generateOnArchotech;
-                if (weapon.def.weaponTags != null && weapon.def.GetModExtension<ArchotechTraitExtension>() is ArchotechTraitExtension traitExtension && weapon.def.weaponTags.Any(tag => traitExtension.allowedTags.Contains(tag)))
+                if (trait.GetModExtension<ArchotechTraitExtension>() is ArchotechTraitExtension traitExtension && traitExtension.generateOnArchotech)
                 {
-                    __result = isArchotechOnly;
-                }
-                else
-                {
-                    __result = !isArchotechOnly;
+                    if (weapon.def.HasModExtension<ArchotechDamageExtension>())
+                    {
+                        __result = weapon.def.weaponTags.Any(tag => traitExtension.allowedTags.Contains(tag));
+                    }
+                    else
+                    {
+                        __result = false;
+                    }
                 }
             }
         }
