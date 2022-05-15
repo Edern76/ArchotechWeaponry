@@ -12,9 +12,9 @@ namespace ArchotechWeaponry.Harmony.Patches
     public class PatchPawnPostApplyDamage
     {
         [HarmonyPostfix]
-        public static void Postfix(DamageInfo dinfo, float totalDamagetaken, Pawn __instance)
+        public static void Postfix(DamageInfo dinfo, float totalDamageDealt, Pawn __instance)
         {
-            if (totalDamagetaken > 0 &&
+            if (totalDamageDealt > 0 &&
                 __instance.equipment.Primary.TryGetComp<CompBladelinkWeapon>() is CompBladelinkWeapon compBladelink &&
                 compBladelink.TraitsListForReading.Any(trait => trait.HasModExtension<WrathExtension>()))
             {
