@@ -10,9 +10,9 @@ namespace ArchotechWeaponry.Harmony.Patches
     public class PatchAdjustedCooldownStuff
     {
         [HarmonyPostfix]
-        public static void Postfix(ref float __result, Pawn pawn, VerbProperties __instance)
+        public static void Postfix(ref float __result, Pawn attacker, VerbProperties __instance)
         {
-            if (pawn !=  null && pawn.equipment is Pawn_EquipmentTracker equipmentTracker &&
+            if (attacker !=  null && attacker.equipment is Pawn_EquipmentTracker equipmentTracker &&
                                equipmentTracker.pawn.MentalStateDef == MentalStateDefOf.ArchotechWrath)
             {
                 if (__instance.IsMeleeAttack)
