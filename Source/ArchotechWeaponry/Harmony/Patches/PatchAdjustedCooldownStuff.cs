@@ -6,13 +6,13 @@ using Verse;
 namespace ArchotechWeaponry.Harmony.Patches
 {
     [HarmonyPatch(typeof(VerbProperties))]
-    [HarmonyPatch("AdjustedCooldown", new Type[] {typeof(Tool), typeof(Pawn), typeof(Thing), typeof(ThingDef)})]
+    [HarmonyPatch("AdjustedCooldown", new Type[] {typeof(Tool), typeof(Pawn), typeof(ThingDef), typeof(ThingDef)})]
     public class PatchAdjustedCooldownStuff
     {
         [HarmonyPostfix]
-        public static void Postfix(ref float __result, Thing equipment, VerbProperties __instance)
+        public static void Postfix(ref float __result, Pawn pawn, VerbProperties __instance)
         {
-            if (equipment !=  null && equipment.ParentHolder is Pawn_EquipmentTracker equipmentTracker &&
+            if (pawn !=  null && pawn.equipment is Pawn_EquipmentTracker equipmentTracker &&
                                equipmentTracker.pawn.MentalStateDef == MentalStateDefOf.ArchotechWrath)
             {
                 if (__instance.IsMeleeAttack)
