@@ -8,7 +8,7 @@ namespace ArchotechWeaponry.Harmony.Patches
     [HarmonyPatch(typeof(CompBladelinkWeapon))]
     public class PatchCanAddTrait
     {
-        public void Postfix(WeaponTraitDef trait, CompBiocodable __instance, ref bool __result)
+        public static void Postfix(WeaponTraitDef trait, CompBiocodable __instance, ref bool __result)
         {
             if (__result)
             {
