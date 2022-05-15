@@ -24,7 +24,7 @@ namespace ArchotechWeaponry.Harmony.Patches
 
         private static void HandleArchotechWeapon(ref DamageInfo dinfo, Pawn __instance)
         {
-            if (dinfo.Weapon.HasModExtension<ArchotechDamageExtension>() && dinfo.Instigator is Pawn instigator && instigator.equipment.Primary.def == dinfo.Weapon)
+            if (dinfo.Weapon != null && dinfo.Weapon.HasModExtension<ArchotechDamageExtension>() && dinfo.Instigator is Pawn instigator && instigator.equipment.Primary.def == dinfo.Weapon)
             {
                 ThingWithComps weaponComp = instigator.equipment.Primary;
                 if (weaponComp.TryGetComp<CompArchotechWeapon>() is CompArchotechWeapon compArchotech)
