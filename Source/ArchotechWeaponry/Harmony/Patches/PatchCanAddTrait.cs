@@ -6,6 +6,7 @@ using Verse;
 namespace ArchotechWeaponry.Harmony.Patches
 {
     [HarmonyPatch(typeof(CompBladelinkWeapon))]
+    [HarmonyPatch("CanAddTrait")]
     public class PatchCanAddTrait
     {
         public static void Postfix(WeaponTraitDef trait, CompBiocodable __instance, ref bool __result)
