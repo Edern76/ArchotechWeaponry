@@ -71,7 +71,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/Arc_Sword_Heavy/clipPath>
+                        <clipPath>Weapons/Arc_Sword_Heavy</clipPath>
                     </li>
                 </grains>
                 <volumeRange>48~48</volumeRange>
