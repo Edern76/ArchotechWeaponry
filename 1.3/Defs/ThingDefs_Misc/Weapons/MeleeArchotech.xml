@@ -22,12 +22,6 @@
 			<li>MeleeArchotech</li>
 		</weaponTags>
 		<comps>
-		<li Class="CompProperties_BladelinkWeapon">
-			<biocodeOnEquip>true</biocodeOnEquip>
-		</li>
-		<li Class="CompProperties_GeneratedName">
-			<nameMaker>NamerWeaponArchotech</nameMaker>
-		</li>
 		<li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
 			<SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
 		</li>
@@ -146,12 +140,6 @@
 				<westOffset>(-0.31,0,0)</westOffset>
 				<southOffset>(0.31,0,0)</southOffset>
 				<northOffset>(-0,31,0,0)</northOffset>
-			</li>
-			<li Class="CompProperties_BladelinkWeapon">
-				<biocodeOnEquip>true</biocodeOnEquip>
-			</li>
-			<li Class="CompProperties_GeneratedName">
-				<nameMaker>NamerWeaponArchotech</nameMaker>
 			</li>
 			<li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
 				<SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>

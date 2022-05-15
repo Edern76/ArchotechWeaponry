@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  <WeaponTraitDef>
+  <WeaponTraitDef MayRequire="ludeon.rimworld.royalty">
     <defName>ArchotechPlaguebearer</defName>
     <label>archotech plaguebearer</label>
     <description>This weapon corrupt even the strongest of bodies.</description>
@@ -19,7 +19,7 @@
     </modExtensions>
   </WeaponTraitDef>
 
-  <WeaponTraitDef>
+  <WeaponTraitDef MayRequire="ludeon.rimworld.royalty">
     <defName>ArchotechPrecognition</defName>
     <label>archotech precognition</label>
     <description>This weapon has eyes everywhere, it sees and predict where the next attack will land.</description>
@@ -40,7 +40,7 @@
     </modExtensions>
   </WeaponTraitDef>
 
-  <WeaponTraitDef>
+  <WeaponTraitDef MayRequire="ludeon.rimworld.royalty">
     <defName>ArchotechSensitivity</defName>
     <label>archotech sensitivity</label>
     <description>This weapon enhance one's psychical powers to the point of godhood.</description>
@@ -71,7 +71,7 @@
     </stages>
   </ThoughtDef>
 
-  <WeaponTraitDef>
+  <WeaponTraitDef MayRequire="ludeon.rimworld.royalty">
     <defName>ArchotechWrath</defName>
     <label>archotech wrath</label>
     <description>This weapon bears the rage of a thousands ages, just a push could make the wielder burst into an uncontrollable rage.</description>

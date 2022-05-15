@@ -16,12 +16,6 @@
       <li>RangedArchotech</li>
     </weaponTags>
     <comps>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponArchotech</nameMaker>
-      </li>
       <li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
         <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
       </li>
@@ -109,12 +103,6 @@
       <li>RangedArchotech</li>
     </weaponTags>
     <comps>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponArchotech</nameMaker>
-      </li>
       <li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
         <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
       </li>
@@ -202,12 +190,6 @@
       <li>RangedArchotech</li>
     </weaponTags>
     <comps>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponArchotech</nameMaker>
-      </li>
       <li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
         <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
       </li>
@@ -295,12 +277,6 @@
       <li>RangedArchotech</li>
     </weaponTags>
     <comps>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponArchotech</nameMaker>
-      </li>
       <li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
         <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
       </li>
@@ -433,12 +409,6 @@
         <explosiveDamageType>Bomb</explosiveDamageType>
         <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
       </li>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponArchotech</nameMaker>
-      </li>
      </comps>
   </ThingDef>
 
@@ -475,12 +445,6 @@
       <li>RangedArchotech</li>
     </weaponTags>
     <comps>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponArchotech</nameMaker>
-      </li>
       <li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
         <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
       </li>
@@ -566,12 +530,6 @@
       <li>RangedArchotech</li>
     </weaponTags>
     <comps>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponArchotech</nameMaker>
-      </li>
       <li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
         <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
       </li>
@@ -657,12 +615,6 @@
       <li>RangedArchotech</li>
     </weaponTags>
     <comps>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponArchotech</nameMaker>
-      </li>
       <li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
         <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
       </li>
@@ -750,12 +702,6 @@
       <li>RangedArchotech</li>
     </weaponTags>
     <comps>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponArchotech</nameMaker>
-      </li>
       <li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
         <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
       </li>
@@ -843,12 +789,6 @@
       <li>RangedArchotech</li>
     </weaponTags>
     <comps>
-      <li Class="CompProperties_BladelinkWeapon">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponArchotech</nameMaker>
-      </li>
       <li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
         <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
       </li>
