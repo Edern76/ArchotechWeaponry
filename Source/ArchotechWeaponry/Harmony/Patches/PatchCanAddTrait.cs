@@ -14,15 +14,20 @@ namespace ArchotechWeaponry.Harmony.Patches
             if (__result)
             {
                 ThingWithComps weapon = __instance.parent;
-                bool isArchotechOnly = trait.HasModExtension<ArchotechTraitExtension>() &&
-                                       trait.GetModExtension<ArchotechTraitExtension>().generateOnArchotech;
-                if (trait.GetModExtension<ArchotechTraitExtension>() is ArchotechTraitExtension traitExtension && traitExtension.generateOnArchotech)
+                if (trait.GetModExtension<ArchotechTraitExtension>() is ArchotechTraitExtension traitExtension)
                 {
                     if (weapon.def.HasModExtension<ArchotechDamageExtension>())
                     {
                         __result = weapon.def.weaponTags.Any(tag => traitExtension.allowedTags.Contains(tag));
                     }
                     else
+                    {
+                        __result = false;
+                    }
+                }
+                else
+                {
+                    if (weapon.def.HasModExtension<ArchotechDamageExtension>())
                     {
                         __result = false;
                     }

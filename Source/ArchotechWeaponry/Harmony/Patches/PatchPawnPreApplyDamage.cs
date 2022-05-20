@@ -73,8 +73,7 @@ namespace ArchotechWeaponry.Harmony.Patches
 
         public static void HandlePrecognitiion(ref DamageInfo dinfo, Pawn __instance)
         {
-            if (__instance.equipment.Primary.TryGetComp<CompBladelinkWeapon>() is CompBladelinkWeapon compBladelink &&
-                compBladelink.TraitsListForReading.Any(trait => trait.HasModExtension<PrecognitionExtension>()))
+            if (__instance.equipment?.Primary?.TryGetComp<CompBladelinkWeapon>() is CompBladelinkWeapon compBladelink && compBladelink.TraitsListForReading.Any(trait => trait.HasModExtension<PrecognitionExtension>()))
             {
                 PrecognitionExtension precog = compBladelink.TraitsListForReading
                     .Find(trait => trait.HasModExtension<PrecognitionExtension>())

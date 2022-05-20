@@ -68,6 +68,7 @@
         <Compile Include="Harmony\Patches\PatchAdjustedCooldown.cs" />
         <Compile Include="Harmony\Patches\PatchAdjustedCooldownStuff.cs" />
         <Compile Include="Harmony\Patches\PatchCanAddTrait.cs" />
+        <Compile Include="Harmony\Patches\PatchPawnGizmos.cs" />
         <Compile Include="Harmony\Patches\PatchPawnPostApplyDamage.cs" />
         <Compile Include="Harmony\Patches\PatchPawnPreApplyDamage.cs" />
         <Compile Include="MentalState\MentalState_BattleTrance.cs" />

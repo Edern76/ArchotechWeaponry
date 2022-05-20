@@ -76,7 +76,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <makesSickThought>true</makesSickThought>
     <minSeverity>0</minSeverity>
-    <initialSeverity>1</initialSeverity>  
+    <initialSeverity>0.01</initialSeverity>  
     <stages>
       <li>
         <label>stage 1</label>
@@ -154,7 +154,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <makesSickThought>true</makesSickThought>
     <minSeverity>0</minSeverity>
-    <initialSeverity>1</initialSeverity>  
+    <initialSeverity>0.01</initialSeverity>  
     <comps>
       <li Class="HediffCompProperties_Immunizable">
         <severityPerDayNotImmune>-0.05</severityPerDayNotImmune>
