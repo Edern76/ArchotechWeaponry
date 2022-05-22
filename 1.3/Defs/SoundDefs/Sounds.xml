@@ -32,6 +32,22 @@
     </SoundDef>
 
     <SoundDef>
+        <defName>AW_GunLightShoot</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/Arc_GunLight</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>48~48</volumeRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
         <defName>AW_ShotgunShoot</defName>
         <context>MapOnly</context>
         <maxSimultaneous>1</maxSimultaneous>

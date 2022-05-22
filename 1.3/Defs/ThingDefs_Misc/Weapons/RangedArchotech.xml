@@ -36,7 +36,7 @@
         <defaultProjectile>AW_Bullet_ArchotechMinigun</defaultProjectile>
         <warmupTime>2.33</warmupTime>
         <range>34</range>
-        <soundCast>AW_GunShoot</soundCast>
+        <soundCast>AW_GunLightShoot</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
         <burstShotCount>35</burstShotCount>
@@ -83,7 +83,7 @@
       <speed>110</speed>
     </projectile>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_big</texPath>
+      <texPath>Things/Projectile/Shot_Archotech</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
@@ -170,7 +170,7 @@
       <speed>75</speed>
     </projectile>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_big</texPath>
+      <texPath>Things/Projectile/Shot_Archotech_shotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
@@ -257,7 +257,7 @@
       <speed>100</speed>
     </projectile>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_big</texPath>
+      <texPath>Things/Projectile/Shot_Archotech</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
@@ -344,7 +344,7 @@
       <speed>90</speed>
     </projectile>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_big</texPath>
+      <texPath>Things/Projectile/Shot_Archotech</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
@@ -425,7 +425,7 @@
       <speed>70</speed>
     </projectile>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_big</texPath>
+      <texPath>Things/Projectile/Shot_Archotech_Voidball</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
@@ -510,7 +510,7 @@
       <speed>75</speed>
     </projectile>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_big</texPath>
+      <texPath>Things/Projectile/Shot_Archotech_voidbolt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
@@ -595,7 +595,7 @@
       <speed>65</speed>
     </projectile>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_big</texPath>
+      <texPath>Things/Projectile/Shot_Archotech_Voidarrow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
@@ -682,7 +682,7 @@
       <speed>80</speed>
     </projectile>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_big</texPath>
+      <texPath>Things/Projectile/Shot_Archotech</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
@@ -769,7 +769,7 @@
       <speed>100</speed>
     </projectile>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_big</texPath>
+      <texPath>Things/Projectile/Shot_Archotech</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
@@ -854,7 +854,7 @@
       <speed>80</speed>
     </projectile>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_big</texPath>
+      <texPath>Things/Projectile/Shot_Archotech</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
