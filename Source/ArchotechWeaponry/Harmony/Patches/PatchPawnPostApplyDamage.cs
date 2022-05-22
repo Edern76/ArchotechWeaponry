@@ -1,3 +1,4 @@
+using ArchotechWeaponry.Comps;
 using ArchotechWeaponry.DefOfs;
 using ArchotechWeaponry.Defs.Traits;
 using HarmonyLib;
@@ -25,6 +26,15 @@ namespace ArchotechWeaponry.Harmony.Patches
                 {
                     MentalBreakDefOf.ArchotechWrath.Worker.TryStart(__instance,
                         "This happened because of the equipped archotech weapon.", false);
+                }
+            }
+
+            if (dinfo.Instigator is Pawn pawn && pawn.equipment?.Primary is ThingWithComps thing &&
+                thing.GetComp<CompLimitedUsage>() is CompLimitedUsage compLimitedUsage)
+            {
+                if (compLimitedUsage.currentCharges <= 0)
+                {
+                    thing.Destroy();
                 }
             }
         }

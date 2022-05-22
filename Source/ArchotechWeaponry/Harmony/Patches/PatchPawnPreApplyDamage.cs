@@ -26,8 +26,8 @@ namespace ArchotechWeaponry.Harmony.Patches
         {
             if (dinfo.Weapon != null && dinfo.Weapon.HasModExtension<ArchotechDamageExtension>() && dinfo.Instigator is Pawn instigator && instigator.equipment.Primary.def == dinfo.Weapon)
             {
-                ThingWithComps weaponComp = instigator.equipment.Primary;
-                if (weaponComp.TryGetComp<CompArchotechWeapon>() is CompArchotechWeapon compArchotech)
+                ThingWithComps weaponComp = instigator.equipment?.Primary;
+                if (weaponComp?.TryGetComp<CompArchotechWeapon>() is CompArchotechWeapon compArchotech)
                 {
                     if (!__instance.def.race.IsMechanoid)
                     {
@@ -65,7 +65,9 @@ namespace ArchotechWeaponry.Harmony.Patches
                     }
                     else
                     {
-                        dinfo.Def = DamageDefOf.EMP;
+                        if (!compArchotech.Lethal){
+                            dinfo.Def = DamageDefOf.EMP;
+                        }
                     }
                 }
             }

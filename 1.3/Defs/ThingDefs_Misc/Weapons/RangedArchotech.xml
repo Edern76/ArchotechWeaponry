@@ -371,10 +371,9 @@
     </statBases>
     <verbs>
       <li>
-        <verbClass>Verb_ShootOneUse</verbClass>
+        <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>AW_Bullet_ArchotechVoidlauncher</defaultProjectile>
-        <forcedMissRadius>1</forcedMissRadius>
         <warmupTime>5</warmupTime>
         <range>150</range>
         <soundCast>AW_VoidLauncherShoot</soundCast>
@@ -403,31 +402,43 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-    <comps>
-    	<li Class="CompProperties_Explosive">
-        <explosiveRadius>11.7</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+    <modExtensions>
+      <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
+        <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
+        <nonLethalSeverityPerHit>1</nonLethalSeverityPerHit>
+        <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
+        <lethalSeverityPerHit>1</lethalSeverityPerHit>
       </li>
-     </comps>
+    </modExtensions>
+    <comps>
+      <li Class="ArchotechWeaponry.Comps.CompProperties_LimitedUsage">
+        <initialCharges>6</initialCharges>
+      </li>
+      <li Class="ArchotechWeaponry.Comps.CompProperties_ArchotechWeapon">
+        <SelfNecrosisSeverity>0.25</SelfNecrosisSeverity>
+      </li>
+    </comps>
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
     <defName>AW_Bullet_ArchotechVoidlauncher</defName>
     <label>archotech voidlauncher bullet</label>
-    <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>Bomb</damageDef>
-      <damageAmountBase>1</damageAmountBase>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
       <stoppingPower>2</stoppingPower>
       <armorPenetrationBase>0.20</armorPenetrationBase>
-      <explosionRadius>11.7</explosionRadius>
       <speed>70</speed>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <comps>
+      <li Class="ArchotechWeaponry.Comps.CompProperties_HomingProjectile">
+        <homingChance>1</homingChance>
+      </li>
+  </comps>
   </ThingDef>
 
 	<!-- ==== Archotech Crossbow ==== -->
