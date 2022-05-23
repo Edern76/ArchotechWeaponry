@@ -46,9 +46,9 @@
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
         <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
-        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <nonLethalSeverityPerHit>0.07</nonLethalSeverityPerHit>
         <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
-        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
+        <lethalSeverityPerHit>0.05</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -119,9 +119,9 @@
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
         <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
-        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <nonLethalSeverityPerHit>0.30</nonLethalSeverityPerHit>
         <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
-        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
+        <lethalSeverityPerHit>0.20</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <verbs>
@@ -222,7 +222,7 @@
         <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
         <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
         <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
-        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
+        <lethalSeverityPerHit>0.07</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -307,9 +307,9 @@
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
         <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
-        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <nonLethalSeverityPerHit>0.09</nonLethalSeverityPerHit>
         <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
-        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
+        <lethalSeverityPerHit>0.05</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -484,9 +484,9 @@
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
         <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
-        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <nonLethalSeverityPerHit>0.20</nonLethalSeverityPerHit>
         <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
-        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
+        <lethalSeverityPerHit>0.15</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -569,7 +569,7 @@
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
         <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
-        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <nonLethalSeverityPerHit>0.15</nonLethalSeverityPerHit>
         <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
         <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
       </li>
@@ -656,9 +656,9 @@
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
         <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
-        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <nonLethalSeverityPerHit>0.07</nonLethalSeverityPerHit>
         <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
-        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
+        <lethalSeverityPerHit>0.05</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -743,9 +743,9 @@
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
         <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
-        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <nonLethalSeverityPerHit>0.20</nonLethalSeverityPerHit>
         <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
-        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
+        <lethalSeverityPerHit>0.20</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>
@@ -828,9 +828,9 @@
     <modExtensions>
       <li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
         <nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
-        <nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+        <nonLethalSeverityPerHit>0.15</nonLethalSeverityPerHit>
         <lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
-        <lethalSeverityPerHit>0.10</lethalSeverityPerHit>
+        <lethalSeverityPerHit>0.15</lethalSeverityPerHit>
       </li>
     </modExtensions>
     <tools>

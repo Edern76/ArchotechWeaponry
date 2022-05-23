@@ -29,7 +29,7 @@
 		<modExtensions>
 			<li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
 			<nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
-			<nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+			<nonLethalSeverityPerHit>0.15</nonLethalSeverityPerHit>
 			<lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
 			<lethalSeverityPerHit>0.10</lethalSeverityPerHit>
 			</li>
@@ -90,9 +90,9 @@
 		<modExtensions>
 			<li Class="ArchotechWeaponry.Defs.ArchotechDamageExtension">
 				<nonLethalHediffToApplyOnOrganics>VoidToxin</nonLethalHediffToApplyOnOrganics>
-				<nonLethalSeverityPerHit>0.10</nonLethalSeverityPerHit>
+				<nonLethalSeverityPerHit>0.25</nonLethalSeverityPerHit>
 				<lethalHediffToApplyOnOrganics>VoidNecrosisTemp</lethalHediffToApplyOnOrganics>
-				<lethalSeverityPerHit>0.10</lethalSeverityPerHit>
+				<lethalSeverityPerHit>0.25</lethalSeverityPerHit>
 			</li>
 		</modExtensions>
 		<weaponClasses>
