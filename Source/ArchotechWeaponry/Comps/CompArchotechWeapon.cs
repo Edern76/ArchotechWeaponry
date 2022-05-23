@@ -67,7 +67,7 @@ namespace ArchotechWeaponry.Comps
                     {
                         icon = this.LethalTex,
                         defaultLabel = "Switch Mode",
-                        defaultDesc = "Switch to non lethal mode",
+                        defaultDesc = "Switch to void toxin mode",
                         action = () =>
                         {
                             this.Lethal = false;
@@ -80,7 +80,7 @@ namespace ArchotechWeaponry.Comps
                     {
                         icon = this.NonLethalTex,
                         defaultLabel = "Switch Mode",
-                        defaultDesc = "Switch to lethal mode",
+                        defaultDesc = "Switch to void necrosis mode",
                         action = () =>
                         {
                             this.Lethal = true;
