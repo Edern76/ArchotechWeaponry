@@ -210,7 +210,7 @@
         <defaultProjectile>AW_Bullet_ArchotechLMG</defaultProjectile>
         <warmupTime>1.58</warmupTime>
         <range>30</range>
-        <soundCast>AW_GunShoot</soundCast>
+        <soundCast>AW_GunLightShoot</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <burstShotCount>16</burstShotCount>
@@ -646,7 +646,7 @@
         <defaultProjectile>AW_Bullet_ArchotechSMG</defaultProjectile>
         <warmupTime>0.67</warmupTime>
         <range>28</range>
-        <soundCast>AW_GunShoot</soundCast>
+        <soundCast>AW_GunLightShoot</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
         <burstShotCount>4</burstShotCount>
