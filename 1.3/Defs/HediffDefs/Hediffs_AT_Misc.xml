@@ -77,6 +77,11 @@
     <makesSickThought>true</makesSickThought>
     <minSeverity>0</minSeverity>
     <initialSeverity>0.01</initialSeverity>  
+    <comps>
+      <li Class="ArchotechWeaponry.Comps.HediffCompProperties_FilthOnDeath">
+        <filthToSpawn>AW_Filth_VoidAshes</filthToSpawn>
+      </li>
+    </comps>
     <stages>
       <li>
         <label>stage 1</label>
@@ -158,6 +163,9 @@
     <comps>
       <li Class="HediffCompProperties_Immunizable">
         <severityPerDayNotImmune>-0.05</severityPerDayNotImmune>
+      </li>
+      <li Class="ArchotechWeaponry.Comps.HediffCompProperties_FilthOnDeath">
+        <filthToSpawn>AW_Filth_VoidAshes</filthToSpawn>
       </li>
     </comps>
     <stages>

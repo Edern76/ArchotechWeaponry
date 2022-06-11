@@ -58,6 +58,7 @@
         <Compile Include="Comps\CompArchotechWeapon.cs" />
         <Compile Include="Comps\CompHomingProjectile.cs" />
         <Compile Include="Comps\CompLimitedUsage.cs" />
+        <Compile Include="Comps\HediffComp_FilthOnDeath.cs" />
         <Compile Include="DefOfs\HediffDefOf.cs" />
         <Compile Include="DefOfs\MentalBreakDefOf.cs" />
         <Compile Include="DefOfs\MentalStateDefOf.cs" />
