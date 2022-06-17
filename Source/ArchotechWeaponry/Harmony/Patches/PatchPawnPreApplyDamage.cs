@@ -26,7 +26,7 @@ namespace ArchotechWeaponry.Harmony.Patches
         {
             if (dinfo.Weapon != null && dinfo.Weapon.HasModExtension<ArchotechDamageExtension>() && dinfo.Instigator is Pawn instigator && instigator.equipment.Primary.def == dinfo.Weapon)
             {
-                ThingWithComps weaponComp = instigator.equipment?.Primary;
+                ThingWithComps weaponComp = instigator?.equipment?.Primary;
                 if (weaponComp?.TryGetComp<CompArchotechWeapon>() is CompArchotechWeapon compArchotech)
                 {
                     if (!__instance.def.race.IsMechanoid)
