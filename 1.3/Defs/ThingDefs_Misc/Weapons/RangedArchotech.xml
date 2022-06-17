@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+ <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!-- ==== Archotech Minigun ==== -->
@@ -197,10 +197,10 @@
     <statBases>
     	<MarketValue>2650</MarketValue>
     	<Mass>2.6</Mass>
-    	<AccuracyTouch>50</AccuracyTouch>
-      <AccuracyShort>55</AccuracyShort>
-      <AccuracyMedium>40</AccuracyMedium>
-      <AccuracyLong>30</AccuracyLong>
+    	<AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
       <RangedWeapon_Cooldown>1.83</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
@@ -284,10 +284,10 @@
     <statBases>
     	<MarketValue>1300</MarketValue>
     	<Mass>0.7</Mass>
-    	<AccuracyTouch>90</AccuracyTouch>
-      <AccuracyShort>75</AccuracyShort>
-      <AccuracyMedium>50</AccuracyMedium>
-      <AccuracyLong>35</AccuracyLong>
+    	<AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>1.17</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
